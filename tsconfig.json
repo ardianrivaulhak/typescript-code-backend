@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "target": "ESNext",
+        "lib": ["ESNext"],
+        "types": ["reflect-metadata"],
+        "outDir": "dist",
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["src/*"]
+        },
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "strict": true,
+        "incremental": true
+    },
+    "exclude": ["node_modules", "dist"]
+}
